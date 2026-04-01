@@ -1,0 +1,45 @@
+{
+  "split": "dataset_1_0",
+  "train_n": 2490,
+  "val_n": 277,
+  "test_n": 1188,
+  "y_mean": 32.94327926635742,
+  "y_std": 27.2598934273584,
+  "x_dim": 12294,
+  "ensemble_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "val_r2_each": [
+    0.9717385768890381,
+    0.9715167880058289,
+    0.9701887369155884,
+    0.9705115556716919,
+    0.9720837473869324
+  ],
+  "ckpts": [
+    "./runs_morgan_ann_bh/outputs_buchwald-hartwig_morgan_ann_dataset_1_0/best_seed140.pt",
+    "./runs_morgan_ann_bh/outputs_buchwald-hartwig_morgan_ann_dataset_1_0/best_seed1140.pt",
+    "./runs_morgan_ann_bh/outputs_buchwald-hartwig_morgan_ann_dataset_1_0/best_seed2140.pt",
+    "./runs_morgan_ann_bh/outputs_buchwald-hartwig_morgan_ann_dataset_1_0/best_seed3140.pt",
+    "./runs_morgan_ann_bh/outputs_buchwald-hartwig_morgan_ann_dataset_1_0/best_seed4140.pt"
+  ],
+  "ensemble_mode": "weighted_softmax_valfit",
+  "ensemble_weights": [
+    0.2614276707172394,
+    0.1906224638223648,
+    0.00022295794042292982,
+    0.00025468814419582486,
+    0.5474721193313599
+  ],
+  "mae": 3.438546657562256,
+  "rmse": 5.012304995731929,
+  "r2": 0.9669446349143982,
+  "mae_%": 343.8546657562256,
+  "rmse_%": 501.2304995731929,
+  "mc_passes_test": 1,
+  "device": "cuda"
+}

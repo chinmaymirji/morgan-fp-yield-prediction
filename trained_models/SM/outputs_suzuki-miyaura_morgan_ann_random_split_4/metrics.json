@@ -1,0 +1,36 @@
+{
+  "split": "random_split_4",
+  "train_n": 3427,
+  "val_n": 605,
+  "test_n": 1728,
+  "y_mean": 0.40400856733322144,
+  "y_std": 0.28167543815208435,
+  "x_dim": 8196,
+  "ensemble_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "val_r2_each": [
+    0.8689119219779968,
+    0.8691668510437012,
+    0.8662712574005127,
+    0.8676707744598389,
+    0.8666430711746216
+  ],
+  "ckpts": [
+    "./runs_morgan_ann/outputs_suzuki-miyaura_morgan_ann_random_split_4/best_seed144.pt",
+    "./runs_morgan_ann/outputs_suzuki-miyaura_morgan_ann_random_split_4/best_seed1144.pt",
+    "./runs_morgan_ann/outputs_suzuki-miyaura_morgan_ann_random_split_4/best_seed2144.pt",
+    "./runs_morgan_ann/outputs_suzuki-miyaura_morgan_ann_random_split_4/best_seed3144.pt",
+    "./runs_morgan_ann/outputs_suzuki-miyaura_morgan_ann_random_split_4/best_seed4144.pt"
+  ],
+  "mae": 0.06216955557465553,
+  "rmse": 0.09212364211660401,
+  "r2": 0.8911579251289368,
+  "mae_%": 6.216955557465553,
+  "rmse_%": 9.2123642116604,
+  "device": "cuda"
+}

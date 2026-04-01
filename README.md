@@ -6,13 +6,15 @@ This repository contains training and ablation pipelines for reaction yield pred
 
 ```text
 .
-├── utils/
-│   ├── __init__.py
-│   └── common.py
-├── train_morgan_ann_sm.py
-├── train_morgan_ann_bh.py
-├── fp_ablation_sm_all_splits.py
-├── fp_ablation_bh_all_splits.py
+├── training_scripts/
+│   ├── utils/
+│       ├── __init__.py
+│       └── common.py
+│   ├── train_morgan_ann_sm.py
+│   ├── train_morgan_ann_bh.py
+│   ├── fp_ablation_sm_all_splits.py
+│   └── fp_ablation_bh_all_splits.py
+├── trained_models/
 ├── environment.yml
 └── README.md
 ```
